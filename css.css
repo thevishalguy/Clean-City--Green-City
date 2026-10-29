@@ -1,0 +1,88 @@
+nav{
+    background-color:#8CA672 ;
+    padding:20px;
+}
+h1,ul,li{
+    color:white;
+    display:inline;
+}
+ul{
+    margin-left:40%;
+
+}
+header{
+    width:100%;
+}
+h1,ul{
+    font-size:35px;
+}
+
+.one{
+    background-color:#8CA672;
+    border:none;
+    color:white;
+    padding:12px 24px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+    font-size:15px;
+}
+button:hover{
+    background-color:rgb(39, 116, 15);
+    transform:scale(1.05);
+}
+.two{
+    margin-top:10px;
+    width:500px;
+    height:500px;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+    
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background-image: url('https://media1.tenor.com/m/ijCa4_OvozsAAAAC/rain-raining.gif'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.footer {
+    margin-bottom:10px;
+    position: relative;
+    height: 40px;
+    
+    bottom: 0px;
+    left: 0;
+    width:100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B2602;
+}
+.footer p{
+    color: #B4BFB5;    
+    font-size: 1em;
+}
+.vl {
+    border-left: 1px solid#B4BFB5;
+    height: 40px;
+}
+.vishl{
+    text-align:center;
+    color:white;
+}

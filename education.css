@@ -1,0 +1,58 @@
+
+.harbour{
+    color:black;
+    font-style:initial;
+    font-size:20px;
+}
+.ra{
+    text-align:center;
+    margin-left:50px;
+    margin-right:50px;
+    color:rgb(45, 45, 45);
+
+}
+.footer {
+    margin-bottom:10px;
+    position: relative;
+    height: 40px;
+   
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B2602;
+}
+.footer p{
+    color: #f1fbf2;    
+    font-size: 1em;
+}
+.vl {
+    border-left: 1px solid#B4BFB5;
+    height: 40px;
+}
+button{
+    background-color:#8CA672;
+    border:none;
+    color:white;
+    padding:12px 24px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+button:hover{
+    background-color:#000000;
+    transform:scale(1.05);
+}
+body{
+    background-color:#8CA672;
+}
+.id{
+    width: 300px;
+    height:300px;
+    margin-left:50px;
+    border-color:black;
+    border-style:solid;
+}
